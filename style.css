@@ -1,0 +1,14 @@
+.container
+{
+    border: 1px solid black;
+}
+
+.row .col
+{
+    border: 1px solid black;
+}
+
+b
+{
+    text-align: center;
+}
