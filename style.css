@@ -1,14 +1,71 @@
 .container
 {
     border: 1px solid black;
+    margin-bottom: 5vh;
 }
 
-.row .col
+.header .col
+{
+    border: 1px solid black;
+    height: 80vh;
+}
+
+.features .col
+{
+    border: 1px solid black;
+    height: 30vh;
+}
+
+.focus .col
+{
+    border: 1px solid black;
+    height: 50vh;
+}
+
+.bar
+{
+    border: 1px solid black;
+    width: 40vh;
+    height: 25vh;
+    margin-left: 5vh;
+}
+
+.footer
+{
+    border: 1px solid black;
+    height: 80vh;
+}
+
+.learn
+{
+    border: 1px solid black;
+    width: 80vh;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.learn .col
+{
+    border: 1px solid black;
+    height: 80vh;
+}
+
+.learn-box
+{
+    border: 1px solid black;
+    width: 80vh;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.learn-box .col
 {
     border: 1px solid black;
 }
 
-b
+.choose
 {
     text-align: center;
 }
