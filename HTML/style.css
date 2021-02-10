@@ -1,71 +1,161 @@
 .container
 {
-    border: 1px solid black;
-    margin-bottom: 5vh;
+    margin-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
-.header .col
+.header .header-title
 {
-    border: 1px solid black;
-    height: 80vh;
+    font-weight: bold;
+    font-size: 5em;
+    font-family: 'Latto';
+    margin-bottom: 0.2em;
 }
 
-.features .col
+.header .header-desc
 {
-    border: 1px solid black;
-    height: 30vh;
+    font-size: 1em;
 }
 
-.focus .col
+.header .header-button
 {
-    border: 1px solid black;
-    height: 50vh;
+    margin-top: 3em;
+}
+
+.header .header-button .col
+{
+    height: 100%;
+}
+
+.header .header-button button
+{
+    border-radius: 5em;
+    font-size: 0.7em;
+    width: 150px;
+    height: 50px;
+}
+
+.features .col-12
+{
+    margin-bottom: 2em;
+}
+
+.features .col-md-4
+{
+    margin-bottom: 2.5em;
+}
+
+.features .choose
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: 'Latto';
+    margin-bottom: 1em;
+}
+
+.features .features-title
+{
+    font-weight: bold;
+    margin-bottom: 0.8em;
+}
+
+.features img
+{
+    margin-bottom: 0.5em;
+}
+
+.focus .focus-title
+{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "Lato";
+}
+
+.focus .focus-desc
+{
+    margin-bottom: 1em;   
+}
+
+.focus .progress
+{
+    margin-bottom: 2em;
 }
 
 .bar
 {
-    border: 1px solid black;
-    width: 40vh;
-    height: 25vh;
-    margin-left: 5vh;
+    width: 20rem;
+    margin-left: 2em;
 }
 
-.footer
+.bar .bar-subject
 {
-    border: 1px solid black;
-    height: 80vh;
+    font-size: 0.8em;
+    margin-bottom: 0.3em;
+    color: blue;
 }
 
-.learn
+.bar .bar-college
 {
-    border: 1px solid black;
-    width: 80vh;
-    height: 40vh;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 0.8em;
+    margin-bottom: 0.3em;
+    color: purple;
 }
 
-.learn .col
+.bar .progress
 {
-    border: 1px solid black;
-    height: 80vh;
+    border-radius: 2rem;
+    height: 1.5em;
 }
 
-.learn-box
+.bar .bar-prep
 {
-    border: 1px solid black;
-    width: 80vh;
-    height: 10vh;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 0.8em;
+    margin-bottom: 0.3em;
+    color: orange;
 }
 
-.learn-box .col
+.footer .card
 {
-    border: 1px solid black;
+    width: 30rem;
+    border: none;
 }
 
-.choose
+.footer .learn-title
 {
     text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: "Lato";
+}
+
+.footer .learn-desc
+{
+    text-align: center;
+}
+
+.footer .col
+{
+    text-align: center;
+}
+
+.footer .footer-text
+{
+    margin-top: 1em;
+}
+
+.footer .learn-button
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footer button
+{
+    border-radius: 5em;
+    font-size: 0.7em;
+    width: 150px;
+    height: 50px;
+    margin-top: 3em;
 }
