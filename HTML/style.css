@@ -1,14 +1,14 @@
 .container
 {
     margin-bottom: 5em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .header .header-title
 {
     font-weight: bold;
-    font-size: 5em;
+    font-size: 4em;
     font-family: 'Latto';
     margin-bottom: 0.2em;
 }
@@ -118,8 +118,10 @@
 
 .footer .card
 {
-    width: 30rem;
+    margin-top: 5em;
+    width: 42rem;
     border: none;
+    padding: 2em;
 }
 
 .footer .learn-title
@@ -140,15 +142,11 @@
     text-align: center;
 }
 
-.footer .footer-text
-{
-    margin-top: 1em;
-}
-
 .footer .learn-button
 {
     display: flex;
     justify-content: center;
+    margin-bottom: 5em;
 }
 
 .footer button
