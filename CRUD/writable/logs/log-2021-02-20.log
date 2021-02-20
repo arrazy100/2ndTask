@@ -1,0 +1,185 @@
+ERROR - 2021-02-20 05:36:04 --> Error connecting to the database: No such file or directory
+ERROR - 2021-02-20 05:36:57 --> Error connecting to the database: No such file or directory
+ERROR - 2021-02-20 05:38:21 --> Error connecting to the database: No such file or directory
+ERROR - 2021-02-20 05:41:30 --> Error connecting to the database: No such file or directory
+ERROR - 2021-02-20 05:44:21 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-02-20 06:00:19 --> Invalid file: layout/post_layout.php
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_lay...')
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(236): CodeIgniter\View\View->render('layout/post_lay...', Array, true)
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('news', Array, true)
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/News.php(22): view('news', Array)
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\News->index()
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#9 {main}
+CRITICAL - 2021-02-20 06:01:46 --> Invalid file: layout/post_layout.php
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_lay...')
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(236): CodeIgniter\View\View->render('layout/post_lay...', Array, true)
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('news', Array, true)
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/News.php(22): view('news', Array)
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\News->index()
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#9 {main}
+CRITICAL - 2021-02-20 06:02:14 --> Invalid file: layout/post_layout.php
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_lay...')
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(236): CodeIgniter\View\View->render('layout/post_lay...', Array, true)
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('news', Array, true)
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/News.php(22): view('news', Array)
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\News->index()
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#9 {main}
+CRITICAL - 2021-02-20 06:02:15 --> Invalid file: layout/post_layout.php
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_lay...')
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(236): CodeIgniter\View\View->render('layout/post_lay...', Array, true)
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('news', Array, true)
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/News.php(22): view('news', Array)
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\News->index()
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#9 {main}
+CRITICAL - 2021-02-20 06:02:15 --> Invalid file: layout/post_layout.php
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_lay...')
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(236): CodeIgniter\View\View->render('layout/post_lay...', Array, true)
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('news', Array, true)
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/News.php(22): view('news', Array)
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\News->index()
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#9 {main}
+CRITICAL - 2021-02-20 06:12:55 --> Invalid file: product/index.php
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/index.p...')
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('product/index', Array, true)
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/Product.php(24): view('product/index', Array)
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Product->index()
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#8 {main}
+CRITICAL - 2021-02-20 06:14:00 --> Invalid file: product/index.php
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/index.p...')
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('product/index', Array, true)
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/Product.php(24): view('product/index', Array)
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Product->index()
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#8 {main}
+CRITICAL - 2021-02-20 06:22:11 --> Class 'App\Models\NewsModel' not found
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\News->index()
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#5 {main}
+CRITICAL - 2021-02-20 06:22:38 --> Invalid file: news.php
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news.php')
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('news', Array, true)
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/News.php(22): view('news', Array)
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\News->index()
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#8 {main}
+CRITICAL - 2021-02-20 06:22:53 --> Invalid file: news.php
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news.php')
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('news', Array, true)
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/News.php(22): view('news', Array)
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\News->index()
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#8 {main}
+CRITICAL - 2021-02-20 06:23:00 --> Invalid file: layout/post_layout.php
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/post_lay...')
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(236): CodeIgniter\View\View->render('layout/post_lay...', Array, true)
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('news', Array, true)
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/News.php(22): view('news', Array)
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\News->index()
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#9 {main}
+CRITICAL - 2021-02-20 06:33:34 --> Undefined variable: limit
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Views/widget/recent_post.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/afar0308/...', 6, Array)
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/afar0308/...')
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('widget/recent_p...', Array, true)
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Libraries/Widget.php(8): view('widget/recent_p...', Array)
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/Cell.php(128): App\Libraries\Widget->recentPost(Array)
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1238): CodeIgniter\View\Cell->render('\\App\\Libraries\\...', NULL, 0, 'AppLibrariesWid...')
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Views/layout/sidebar.php(1): view_cell('\\App\\Libraries\\...')
+#8 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/afar0308/...')
+#9 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(468): CodeIgniter\View\View->render('layout/sidebar', NULL, true)
+#11 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Views/layout/post_layout.php(24): CodeIgniter\View\View->include('layout/sidebar')
+#12 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/afar0308/...')
+#13 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#14 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(236): CodeIgniter\View\View->render('layout/post_lay...', Array, true)
+#15 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('news', Array, true)
+#16 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/News.php(7): view('news')
+#17 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\News->index()
+#18 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#19 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#20 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#21 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#22 {main}
+CRITICAL - 2021-02-20 06:42:29 --> Undefined index: created_at
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Views/admin_list_news.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/afar0308/...', 20, Array)
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/afar0308/...')
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('admin_list_news', Array, true)
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/NewsAdmin.php(12): view('admin_list_news', Array)
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\NewsAdmin->index()
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#10 {main}
+ERROR - 2021-02-20 06:45:39 --> mysqli_sql_exception: Duplicate entry 'hello-world' for key 'slug' in /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ne...')
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ne...')
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ne...')
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ne...', Array, false)
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/NewsAdmin.php(44): CodeIgniter\Model->insert(Array)
+#8 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\NewsAdmin->create()
+#9 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+#10 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#13 {main}
+CRITICAL - 2021-02-20 06:45:39 --> Duplicate entry 'hello-world' for key 'slug'
+#0 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ne...')
+#1 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ne...')
+#2 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ne...')
+#3 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ne...', Array, false)
+#4 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/app/Controllers/NewsAdmin.php(44): CodeIgniter\Model->insert(Array)
+#8 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\NewsAdmin->create()
+#9 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsAdmin))
+#10 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 /home/afar0308/Documents/htdocs/Mejakita_Intern/CRUD/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/home/afar0308/...')
+#13 {main}
